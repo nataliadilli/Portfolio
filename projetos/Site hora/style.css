@@ -1,0 +1,32 @@
+body{
+background: rgb(74, 147, 180);
+font: normal 15pt Arial;
+}
+header{
+    color: beige;
+    text-align: center;
+
+}
+section{
+background-color:aliceblue;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgb(11, 54, 94);
+}
+footer{
+    color: beige;
+    text-align: center;
+    font-style: italic;
+
+}
+.foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+div{
+    text-align: center;
+    padding: 18px;
+}

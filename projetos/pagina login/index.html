@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecalho">Cadastro</div>
+
+      <input type="text" id="nome" class="campo" placeholder="Nome" />
+
+      <input type="email" id="email" class="campo" placeholder="E-mail" />
+
+      <input type="password" id="senha" class="campo" placeholder="Senha" />
+      <input
+        type="password"
+        id="confirma_senha"
+        class="campo"
+        placeholder="Confirmação da senha"
+      />
+      <input
+        type="button"
+        value="Registrar"
+        id="registro"
+        class="registro"
+        onclick="registrar()"
+      />
+    </div>
+  </body>
+</html>

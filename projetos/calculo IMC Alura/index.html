@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculando IMC</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="titulointro">O que é o IMC (Índice de Massa Corporal)?</div>
+      <div class="textointro">
+        O IMC é um cálculo simples que permite avaliar se a pessoa está dentro
+        do peso que é considerado ideal para a sua altura.
+        <br />
+        <br />
+        Também conhecido como Índice de Massa Corporal, o IMC é uma fórmula
+        utilizada por vários profissionais de saúde, incluindo médicos,
+        enfermeiros e nutricionistas, para saber, de uma forma rápida, se a
+        pessoa precisa ganhar ou perder peso.
+        <br />
+        <br />
+        Embora seja uma ferramenta muito comum, o IMC não é considerado a forma
+        mais exata de avaliar o peso, já que não leva em consideração a
+        composição corporal. Por isso, é comum que no caso de atletas (que
+        possuem uma maior quantidade de massa muscular) seja aconselhado o uso
+        de outras técnicas, como a bioimpedância, para uma avaliação mais
+        detalhada do peso.
+        <br />
+        <br />
+      </div>
+    </div>
+    <div class="imagemintro">
+      <img src="./imagens/imc_61177_l.webp" alt="" />
+    </div>
+
+    <div class="calculoims">
+      <div class="titulocalculoimc">Como eu calculo meu IMC?</div>
+
+      <div class="textocalculoimc">
+        <br />
+        <br />
+        O cálculo do IMC é feito usando a seguinte fórmula: peso (kg) ÷ (altura
+        x altura) (m).
+        <br />
+        <br />
+        Mas você também pode saber se está dentro do peso ideal utilizando a
+        nossa calculadora online de IMC.
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="titulo">Vamos calcular seu IMC!</div>
+      <div class="textopeso">
+        Na caixa de texto abaixo digite seu peso (kg).
+      </div>
+      <input type="number" class="peso" id="peso" />
+      <div class="textoaltura">
+        Na caixa de texto abaixo digite sua altura (m) Ex.1.90m
+      </div>
+      <input type="number" class="altura" id="altura" />
+      <div class="verificar">
+        <input
+          type="button"
+          value="Verificar"
+          class="botao"
+          onclick="verificar()"
+        />
+      </div>
+      <div class="resultado" id="resultado"></div>
+      <div class="imc" id="imc"></div>
+    </div>
+    <div class="tabelaimctitulo">Tabela de Classificação do imc:</div>
+    <div class="tabelaimg">
+      <img src="./imagens/imagemtabela.jpg" />
+    </div>
+  </body>
+</html>

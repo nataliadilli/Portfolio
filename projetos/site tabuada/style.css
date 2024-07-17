@@ -1,0 +1,83 @@
+body {
+    background: rgb(25 56 69);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: beige;
+    text-align: center;
+
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(11, 54, 94);
+}
+
+footer {
+    color: beige;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.titulo {
+    color: rgb(25 56 69);
+    ;
+    font: normal 15 pt Arial;
+    font-weight: bold
+}
+
+.numero {
+    border-radius: 10px;
+    background-color: rgb(243, 247, 247);
+    height: 25px;
+    margin: 20px 0;
+    padding: 2px;
+    width: 50%;
+}
+
+/* .botao {
+    border-radius: 5px;
+    height: 25px;
+    color: rgb(25 56 69);
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.botao {
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: rgb(25 56 69);
+    height: 48px;
+
+    margin-bottom: 20px;
+ 
+
+}
+
+.resultado {
+    color: rgb(25 56 69);
+    border-radius: 2px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+}

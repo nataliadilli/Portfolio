@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to right, white, rgb(68, 66, 66));
+}
+
+.container {
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(11, 54, 94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    font: normal 50px Arial;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+.campo {
+    background-color: rgb(6, 7, 7);
+    border: 1px;
+    border-radius: 10px;
+    padding: 5px 0 5px 15px;
+    box-shadow: 5px 5px 10px rgb(11, 54, 94);
+    width: 250px;
+    height: 15px;
+    margin: 15px 0;
+    color: white;
+}
+
+.registro {
+    background-color: white;
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgb(11, 54, 94);
+    width: 150px;
+    height: 50px;
+    margin: 15px 0;
+    font: normal 20px Arial;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

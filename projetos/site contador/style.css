@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right,#1a5064, #92d5f1);;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgb(11, 54, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold ;
+}
+
+footer {
+    color: beige;
+    text-align: center;
+    font-style: italic;
+
+}
+
+input{
+    height: 25px;
+}
+
+.botao{
+    height: 30px;
+    width: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    
+}
+
+.resultado {
+    word-break: break-all;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+    width: 100%;
+    gap: 15px;
+}
+
+.input-padrao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
