@@ -81,3 +81,27 @@ footer {
     display: flex;
     align-items: center;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 10px;
+  }
+  
+  table td {
+    border: 1px solid rgb(11, 54, 94);
+    padding: 8px;
+    text-align: center;
+    color: rgb(25, 56, 69);
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgb(225, 243, 252);
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: rgb(243, 247, 247);
+  }
+  

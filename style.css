@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-
 i {
     display: inline-block;
-    color: var(--main-color);
+    color: #00acf1;
 }
 
 :root {
@@ -58,7 +57,7 @@ header {
 }
 
 .logo {
-    font-size: 1.7rem;
+    font-size: 32px;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
@@ -92,7 +91,7 @@ section {
 }
 
 span {
-    color: var(--main-color);
+    color: #00acf1;
 }
 
 .social-media {
@@ -119,13 +118,13 @@ span {
 .home-img {
     border-right: solid 0.6rem;
     border-bottom: solid 0.6rem;
-    border-image: linear-gradient(135deg, transparent 50%, var(--main-color))1;
+    border-image: linear-gradient(135deg, transparent 50%, #00acf1)1;
 }
 
 .sobre-img {
     border-left: solid 0.6rem;
     border-bottom: solid 0.6rem;
-    border-image: linear-gradient(225deg, transparent 50%, var(--main-color))1;
+    border-image: linear-gradient(225deg, transparent 50%, #00acf1)1;
 }
 
 .home-img img,
@@ -159,7 +158,7 @@ span {
 .home-content p,
 .sobre-content p {
     width: 100%;
-    margin-top: 1.2rem;
+    margin-top: 9.2rem;
     text-align: justify;
 
 }
@@ -167,9 +166,9 @@ span {
 .btn {
     display: inline-block;
     padding: 0.7rem 1.8rem;
-    background-color: var(--main-color);
+    background-color: #00acf1;
     border-radius: 2rem;
-    color: var(--bg-color-02);
+    color: white;
     font-weight: 600;
     letter-spacing: 0.1rem;
     transition: 0.3s ease;
@@ -248,6 +247,7 @@ span {
     height: 3rem;
     background: var(--text-color);
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 .portfolio-layer a i {
