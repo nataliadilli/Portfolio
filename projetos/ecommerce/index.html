@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="indexcontato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Seja bem-vindo ao nosso e-commerce com JavaScript!</h1>
+            <p>Encontre aqui o seu produto</p>
+            <button>Compre agora</button>
+        </section>
+        
+        <section class="products">
+            <h2>Produtos em destaque</h2>
+            <div class="product-grid">
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de compras</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <p>Total: <span id="total">R$0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EBAC E-commerce v1</p>
+    </footer>
+</body>
+</html>

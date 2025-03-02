@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; 
+    color: #333; 
+}
+
+header {
+    background-color: #2C3E50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+nav li {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #3498db, #ecf0f1);
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.hero button {
+    background-color: #ecf0f1;
+    color: #3498db;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.product {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.product p {
+    font-size: 14px;
+    color: #2980b9;
+}
+
+.cart {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart th, .cart td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.cart th {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+}
+
+.cart td {
+    font-size: 14px;
+}
+
+.cart td:last-child {
+    text-align: right;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3498db;
+}
+
+#checkout {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#checkout:hover {
+    background-color: #2c3e50;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.product button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.product button.added {
+    transform: scale(1.1);
+    background-color: #27ae60;
+}
+
+.product button:hover {
+    background-color: #3498db;
+}

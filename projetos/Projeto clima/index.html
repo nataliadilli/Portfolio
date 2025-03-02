@@ -1,0 +1,22 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Atual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão do Tempo</h1>
+        <input type="text" id="cidade" placeholder="Digite a cidade" oninput="mostrarSugestoes()">
+        <button onclick="buscarClima()">Buscar</button>
+        <ul id="sugestoes"></ul>
+        
+        <div id="climaAtual"></div>
+        
+        <div id="previsao5Dias"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #0277bd;
+}
+
+button {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0277bd;
+}
+
+#sugestoes {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    background-color: white;
+    position: absolute;
+    width: 75%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+#sugestoes li {
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#sugestoes li:hover {
+    background-color: #f0f0f0;
+}
+#climaAtual {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#climaAtual h2 {
+    font-size: 28px;
+    color: #0277bd;
+    margin-bottom: 10px;
+}
+
+#climaAtual .temp {
+    font-size: 45px;
+    font-weight: 700;
+    color: #4A90E2;
+    margin: 10px 0;
+}
+
+#climaAtual .condicao {
+    font-size: 18px;
+    color: #757575;
+    text-transform: capitalize;
+}
+
+#climaAtual .icon {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0;
+}
+
+
+#previsao5Dias {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+#previsao5Dias .previsao {
+    min-width: 200px;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#previsao5Dias .previsao img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    background: #ab9f9f;
+    border-radius: 45px;
+}
+
+#previsao5Dias .temp {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+#previsao5Dias .temp-max,
+#previsao5Dias .temp-min {
+    font-size: 16px;
+    color: #757575;
+}
+
+#previsao5Dias .data {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0277bd;
+}
+@media (max-width: 600px) {
+    #previsao5Dias .previsao {
+        min-width: 150px;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#climaAtual,
+#previsao5Dias {
+    animation: fadeIn 1s ease-in-out;
+}
